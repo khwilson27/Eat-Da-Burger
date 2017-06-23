@@ -1,7 +1,18 @@
+html body {
+    background-color: lightblue;
+}
+
+h1, h2 {
+  text-align: center;
+  text-decoration: underline;
+}
+
 li {
   padding: 5px;
   margin: 5px;
-  background: #faebd7;
+  border-style: solid;
+  border-width: 2px;
+  border-color: white;
 }
 
 .label {
@@ -11,9 +22,10 @@ li {
 .create-update-form {
   padding: 5px;
   margin: 5px;
-  background: aqua;
 }
 
 .form-group {
   margin-bottom: 5px;
 }
+
+
